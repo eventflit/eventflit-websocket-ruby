@@ -1,4 +1,4 @@
-# eventflit-client: Ruby WebSocket client for Eventflit Channels
+# eventflit-client: Ruby WebSocket client for Eventflit service
 
 `eventflit-client` is a Ruby gem for consuming WebSockets from Eventflit service.
 
