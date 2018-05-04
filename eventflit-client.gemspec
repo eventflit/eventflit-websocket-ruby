@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version          = EventflitClient::VERSION
   s.authors          = ["Eventflit", "Logan Koester"]
   s.email            = ['support@eventflit.com']
-  s.homepage         = 'http://github.com/eventflit/eventflit-ruby-client'
+  s.homepage         = 'http://github.com/eventflit/eventflit-websocket-ruby'
   s.summary          = 'Client for consuming WebSockets from http://eventflit.com'
   s.description      = 'Client for consuming WebSockets from http://eventflit.com'
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.executables      = `git ls-files -- bin/*`.split("\n").map{ |f|
     File.basename(f)
   }
-  s.extra_rdoc_files = %w(LICENSE.txt README.rdoc)
+  s.extra_rdoc_files = %w(LICENSE.txt README.md)
   s.require_paths    = ['lib']
   s.licenses         = ['MIT']
 
